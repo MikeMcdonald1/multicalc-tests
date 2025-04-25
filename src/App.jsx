@@ -9,7 +9,8 @@ function App() {
 
   return (
     <main>
-      <h1>MultiCalc</h1>
+      <h1>Multi-Calc</h1>{' '}
+      {/* added "-" in "./Multi-Calc/i" to match component{' '} */}
       <OperandContext.Provider value={{ operand, setOperand }}>
         <FormWrapper />
         <CalculatorWrapper />
