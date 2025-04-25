@@ -7,7 +7,7 @@ describe('App test suite', () => {
     render(<App />);
     expect(screen.getByRole('main')).toBeInTheDocument();
     expect(
-      screen.getByRole('heading', { level: 1, name: /MultiCalc/i }) // removed "-" between in "./Multi-Calc/i" to match component <h1>
+      screen.getByRole('heading', { level: 1, name: /Multi-Calc/i })
     ).toBeInTheDocument();
   });
 });
